@@ -14,9 +14,41 @@ header{
 main{
     background-color: rgb(35, 172, 74);
     min-height: 300px;
+    display: flex;
 }
 
 .cards{
     background-color: rgb(32, 239, 97);
-    min-height: 250px;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.card1{
+    background-color: rgb(255, 11, 157);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card2{
+    background-color: rgb(255, 171, 221);
+    min-height: 300px;
+    width: 30%;
+}
+
+.card3{
+    background-color: rgb(94, 14, 62);
+    min-height: 300px;
+    width: 30%;
+}
+
+.herobox1{
+    width: 50%;
+    background-color: cornflowerblue;
+}
+
+.herobox2{
+    width: 50%;
+    background-color: mintcream;
+}
+
