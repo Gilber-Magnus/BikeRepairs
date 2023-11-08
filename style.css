@@ -1,3 +1,13 @@
+html{
+    /* height: 100%; */
+}
+body{
+    background-color: rgb(252, 139, 63);
+    background-image: url(images/image-lion-background.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
 .container{
     width: 1024px;
     min-height: 300px;
@@ -6,8 +16,11 @@
 }
 
 header{
-    background-color: rgb(12, 78, 35);
-    min-height: 100px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 main{
@@ -20,7 +33,7 @@ main{
     background-color: rgb(32, 239, 97);
     min-height: 300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
 }
 
 .card1{
@@ -47,5 +60,12 @@ main{
 
 .herobox2{
     flex: 1;
+}
+nav{
+    display: flex;
+}
+
+p{
+    margin-right: 3px;
 }
 
