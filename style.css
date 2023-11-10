@@ -17,10 +17,10 @@ body{
 
 header{
     padding-bottom: 20px;
-    padding-left: 20px;
     padding-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    align-items: center;
 }
 
 main{
@@ -33,7 +33,7 @@ main{
     background-color: rgb(32, 239, 97);
     min-height: 300px;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
 }
 
 .card1{
@@ -63,6 +63,8 @@ main{
 }
 nav{
     display: flex;
+    /* justify-content: right; Pushing nav to the right Doesn't work */
+
 }
 
 p{
