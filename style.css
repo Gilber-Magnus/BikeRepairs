@@ -61,8 +61,15 @@ main{
 .herobox2{
     flex: 1;
 }
+
+.logo{
+    /* flex: 2; */
+}
+
 nav{
     display: flex;
+    /* flex: 1; */
+    /* margin-right: 3px; */
     /* justify-content: right; Pushing nav to the right Doesn't work */
 
 }
