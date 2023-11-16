@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 body{
-    background-image: linear-gradient(#00DBDE, #FC00FF);
+    background-image: linear-gradient(-43deg, #00DBDE, #FC00FF);
     /* background-image: url(images/image-lion-background.png); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
