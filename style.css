@@ -34,30 +34,33 @@ main{
 }
 
 .cards{
-    min-height: 300px;
+    text-align: center;
     display: flex;
     justify-content: space-between;
 }
 
 .card1{
     background-image: url(/images/image-background-card1.jpg);
-    min-height: 300px;
-    width: 30%;
     background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
 }
 
 .card2{
     background-image: url(/images/image-background-card2.jpg);
-    min-height: 300px;
-    width: 30%;
     background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
 }
 
 .card3{
     background-image: url(/images/image-background-card3.jpg);
-    min-height: 300px;
-    width: 30%;
     background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
 }
 
 .herobox1{
@@ -92,3 +95,14 @@ h1{
    margin-bottom: 1rem;
 }
 
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+.cards p{
+    font-size: .85em;
+    line-height: 1.2em;
+    
+}
