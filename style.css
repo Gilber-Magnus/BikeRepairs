@@ -1,7 +1,7 @@
-html{
+html {
     height: 100%;
 }
-body{
+body {
     background-image: linear-gradient(#FC5E55, #FA4083);
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -12,14 +12,14 @@ body{
     /* background-repeat: no-repeat; */
     /* background-position: center; */
 }
-.container{
+.container {
     width: 1024px;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
-header{
+header {
     padding-bottom: 20px;
     padding-top: 20px;
     display: flex;
@@ -27,19 +27,19 @@ header{
     align-items: center;
 }
 
-main{
+main {
     min-height: 300px;
     display: flex;
     align-items: center;
 }
 
-.cards{
+.cards {
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
 
-.card1{
+.card1 {
     background-image: url(/images/image-background-card1.jpg);
     background-size: cover;
     background-position: bottom;
@@ -47,7 +47,7 @@ main{
     width: 30%;
 }
 
-.card2{
+.card2 {
     background-image: url(/images/image-background-card2.jpg);
     background-size: cover;
     background-position: bottom;
@@ -55,7 +55,7 @@ main{
     width: 30%;
 }
 
-.card3{
+.card3 {
     background-image: url(/images/image-background-card3.jpg);
     background-size: cover;
     background-position: bottom;
@@ -63,20 +63,20 @@ main{
     width: 30%;
 }
 
-.herobox1{
+.herobox1 {
     flex: 2;
     padding-right: 100px;
 }
 
-.herobox2{
+.herobox2 {
     flex: 1;
 }
 
-.logo{
+.logo {
     /* flex: 2; */
 }
 
-nav{
+nav {
     display: flex;
     /* flex: 1; */
     /* margin-right: 3px; */
@@ -84,25 +84,35 @@ nav{
 
 }
 
-p{
+p {
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
 }
 
-h1{
+h1 {
    font-size: 3.25rem;
    font-family: 'Playfair Display', serif;
    margin-bottom: 1rem;
 }
 
-h2{
+h2 {
     font-size: 2rem;
     font-family: 'Playfair Display', serif;
-    margin-bottom: 1rem;
+    margin-top: 20px;
 }
 
-.cards p{
+.cards p {
     font-size: .85em;
     line-height: 1.2em;
-    
+    margin: 10px 30px 20px 30px;
+}
+
+.cards i {
+    font-size: 100px;
+    margin-top: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
