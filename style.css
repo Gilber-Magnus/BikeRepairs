@@ -154,6 +154,8 @@ h2 {
     padding: 6px 10px;
     border-radius: 1000px;
     font-family: 'Playfair Display', serif;
+    display: inline-block;
+    position: relative;
 }
 
 .testimonials {
@@ -180,3 +182,38 @@ h2 {
     font-size: 0.8rem;
     padding-left: 25px;
 }
+
+/* Turns the drop-down off when not used */
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    padding-top: 20px;
+    text-align: center;
+    width: 200px;
+    margin-left: -50px;
+}
+
+/* .navbutton {
+    position: relative;
+    display: inline-block;
+} */
+
+ /* This turns the drop down on on hover */
+.navbutton:hover .dropdown {
+    display: block;    
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: white;
+}
+
+.dropdown .navbutton:hover {
+    background-color: black;
+}
+
+.dropdown .navbutton a {
+    color: #FA4083;
+}
+
