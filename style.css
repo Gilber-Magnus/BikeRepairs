@@ -42,6 +42,11 @@ main {
     align-items: center;
 }
 
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+}
+
 .cards {
     text-align: center;
     display: flex;
@@ -193,7 +198,7 @@ h2 {
     padding-top: 20px;
     text-align: center;
     width: 200px;
-    margin-left: -50px;
+    margin-left: -53px;
 }
 
 /* .navbutton {
@@ -211,6 +216,7 @@ h2 {
     width: 120px;
     background-color: white;
     border-radius:unset;
+    width: 98px;
 }
 
 .dropdown .navbutton:hover {
