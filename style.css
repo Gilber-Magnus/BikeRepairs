@@ -231,3 +231,7 @@ h2 {
     margin-bottom: 10px;
 }
 
+.inputwrapper label {
+    font-size: 0.9rem;
+}
+
