@@ -55,8 +55,15 @@
     
       <form action="mail.php" method="post">
 
-        <input type="text" name="name" id="name">
-        <input type="text" name="email" id="email">
+        <div class="inputwrapper">
+          <label for="name">First Name: </label>
+          <input type="text" name="name" id="name" placeholder="First Name">
+        </div>
+
+        <div class="inputwrapper">
+          <label for="email">Email: </label>
+          <input type="text" name="email" id="email" placeholder="johndoe@gmail.com">
+        </div>
         <input type="submit" value="Submit">
       </form>
 
