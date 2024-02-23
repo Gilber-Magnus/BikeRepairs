@@ -229,9 +229,13 @@ h2 {
 
 .inputwrapper {
     margin-bottom: 10px;
+  
 }
 
 .inputwrapper label {
     font-size: 0.9rem;
 }
 
+input[type=text], input[type=email] {
+    padding: 12px 20px;
+}
